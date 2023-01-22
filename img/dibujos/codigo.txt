@@ -1,0 +1,7 @@
+<script src='https://formify.vercel.app/script.min.js'></script>
+<script>
+  const fields = ['name','email','message'];
+  const formURL = 'https://formify.vercel.app/api/forms/submissions?id=bf7c6c51-8169-4a70-af73-5bd15743ee69';
+  const heading = 'Contacto';
+  formifyInit(fields, formURL, heading);
+</script>
