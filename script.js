@@ -70,3 +70,7 @@ menuButton.addEventListener("click", function() {
   header.style.background = "rgba(36, 33, 33, 1)";
 });
 
+$("#button-17-theme a").click(function(e){
+  e.preventDefault();
+  window.location.href = $(this).attr("href");
+});
